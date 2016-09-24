@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome to Koat</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.1.0/milligram.min.css">
+  <style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .welcome-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .welcome-main > .buttons {
+    flex-direction: row;
+  }
+
+  .welcome-main > .buttons > .button:not(:last-child) {
+    margin-right: 15px;
+  }
+  </style>
+</head>
+<body>
+  <div class="welcome-main">
+    <h1>Welcome to Koat</h1>
+    <p>A simple koa.js application structure, built with RethinkDB, Koa.js, and Node.js</p>
+    <div class="buttons">
+      <a href="" class="button">Documentation</a><a href="#" class="button">Source</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "name": "koat",
+  "description": "Simple koa.js boilerplate",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seanc/koat",
+  "author": "Sean Wilson (https://imsean.me)",
+  "repository": "seanc/koat",
+  "bugs": {
+    "url": "https://github.com/seanc/koat/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "koat"
+  ],
+  "dependencies": {
+    "koa": "^1.2.4",
+    "koa-better-body": "^3.0.0",
+    "koa-logger": "^1.3.0",
+    "koa-morgan": "^1.0.1",
+    "koa-nunjucks-2": "^2.2.0",
+    "koa-router": "^5.4.0",
+    "koa-static": "^2.0.0",
+    "rc": "^1.1.6",
+    "require-glob": "^3.1.1",
+    "rethinkdb": "^2.3.3",
+    "thinky": "^2.3.6"
+  }
+}
